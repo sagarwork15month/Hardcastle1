@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697593191180",
+    "firebase_url": "https://hidc-survey.firebaseio.com",
+    "project_id": "hidc-survey",
+    "storage_bucket": "hidc-survey.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697593191180:android:c030cfb2c7437e7b4ac729",
+        "android_client_info": {
+          "package_name": "com.hardcastle.hardcastle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697593191180-807cfo1fr1004fd5qdf6k43vpd94lau7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hardcastle.hardcastle",
+            "certificate_hash": "a87a93f45ce6fabb03d1b944d5c54a332450334b"
+          }
+        },
+        {
+          "client_id": "697593191180-uqbgu5etl7n4vspbf5n4mb06ho1593el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJejWsKLrfCUpLGCPjiZyedaDvP1nduPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697593191180-uqbgu5etl7n4vspbf5n4mb06ho1593el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

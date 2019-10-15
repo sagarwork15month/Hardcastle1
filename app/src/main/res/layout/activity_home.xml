@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/completed"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:background="#d8d8d8"
+        android:inputType="textPersonName"
+        android:text="completed Till Date" />
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/today"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="#d8d8d8"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="195dp"
+        android:inputType="textPersonName"
+        android:text="Today" />
+
+      <Button
+        android:id="@+id/New"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="380dp"
+          android:background="#d5c623"
+        android:layout_marginLeft="15dp"
+        android:text="New" />
+
+
+    <Button
+        android:id="@+id/Edit"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="#d5c623"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="195dp"
+        android:text="Edit" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/ly_bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="28dp"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="+"
+            android:elevation="6dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            app:layout_anchor="@id/add"
+            app:layout_anchorGravity="center"/>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <ListView
+        android:id="@+id/listView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></ListView>
+
+
+</RelativeLayout>
